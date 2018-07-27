@@ -1,0 +1,19 @@
+/* PAGE LAYOUTS */
+
+body {
+    background-color:floralwhite
+}
+
+
+/* Base Styles */
+
+.container #terrible-quote {
+    text-align: center;
+    color: linear-gradient(0deg, #069 0%, #09c 99%);
+    font-size: 1.5em;
+}
+
+.photo {
+    display: block;
+    align-content: center;
+}

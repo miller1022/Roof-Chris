@@ -1,0 +1,44 @@
+
+.ribbon {
+	font-size: 50px !important;
+	width: 50%;
+	position: relative;
+	background: linear-gradient(0deg, #069 0%, #09c 99%);
+	color: #fff;
+	text-align: center;
+	padding: 1em 0em;
+	margin: 2em auto;
+}
+.ribbon:before,.ribbon:after{
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1.5em solid #069;
+	z-index: -1;
+}
+.ribbon:before{
+	left: -2em;
+	border-left-color: transparent;
+}
+.ribbon:after{
+	right: -2em;
+	border-right-color: transparent;
+}
+.ribbon-folds:before,.ribbon-folds:after{
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #036 transparent;
+	bottom: -1em;
+}
+.ribbon-folds:before{
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+.ribbon-folds:after{
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+.ribbon-z-index{position: relative;z-index: 1; }
